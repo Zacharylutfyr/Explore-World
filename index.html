@@ -1,0 +1,583 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <!-- Font Awesome -->
+    <link
+      rel="stylesheet"
+      href="https://kit.fontawesome.com/8a9d142db2.css"
+      crossorigin="anonymous" />
+
+    <!-- Bootstrap CSS -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD"
+      crossorigin="anonymous" />
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="/css/style.css" />
+
+    <title>Travel</title>
+  </head>
+  <body class="bg-black">
+    <!-- todo Navbar -->
+
+    <section class="navigation">
+      <div class="container-fluid">
+        <nav class="navbar navbar-expand-lg bg-black fixed-top">
+          <div class="container">
+            <a class="navbar-brand" href="#">Traveller</a>
+            <button
+              class="navbar-toggler"
+              type="button"
+              data-bs-toggle="collapse"
+              data-bs-target="#navbarSupportedContent"
+              aria-controls="navbarSupportedContent"
+              aria-expanded="false"
+              aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+              <ul class="navbar-nav">
+                <li class="nav-item">
+                  <a class="nav-link px-3" href="#">Home</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link px-3" href="#visited-countries"
+                    >Countries</a
+                  >
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link px-3" href="#top-cities">Cities</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link px-3" href="#review">Review</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link px-3" href="#contact-us">Contact</a>
+                </li>
+              </ul>
+            </div>
+            <button class="btn book-now" type="submit">Book Now</button>
+          </div>
+        </nav>
+      </div>
+    </section>
+
+    <!-- todo Last Navbar -->
+
+    <!-- todo Heading -->
+
+    <header class="header mar-top">
+      <div class="container-fluid">
+        <div class="container">
+          <div class="row">
+            <div class="col-md-9 col-sm-12 left-header">
+              <img src="/img/header/paris.jpg" alt="" />
+            </div>
+            <div class="col-md-3 col-sm-12 right-header pt-sm-3">
+              <h1>Explore The World With <span>Zachary</span></h1>
+            </div>
+          </div>
+        </div>
+      </div>
+    </header>
+
+    <!-- todo Last Heading -->
+
+    <!-- todo Most Visited Countries -->
+    <section class="visited-countries mar-top pad-top" id="visited-countries">
+      <div class="container-fluid">
+        <div class="container">
+          <h1>Most Visited Countries</h1>
+          <div class="country-card row martop mt-3">
+            <div class="col-5">
+              <div class="card bg-transparent" style="width: 18rem">
+                <img
+                  src="/img/visited-countries/france.jpg"
+                  class="card-img-top"
+                  alt="..." />
+                <div class="card-body text-center">
+                  <h5 class="card-title">
+                    <a href="#" class="btn btn-primary">Visit</a> France
+                  </h5>
+                  <p>No. 1 Most Visited Country</p>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-7">
+              <iframe
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d11379667.893494574!2d-6.924094218123403!3d45.8665231138562!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xd54a02933785731%3A0x6bfd3f96c747d9f7!2sPrancis!5e0!3m2!1sid!2sid!4v1677856722813!5m2!1sid!2sid"
+                width="600"
+                height="450"
+                style="border: 0"
+                allowfullscreen=""
+                loading="lazy"
+                referrerpolicy="no-referrer-when-downgrade"></iframe>
+            </div>
+          </div>
+
+          <div class="country-card row martop">
+            <div class="col-5">
+              <div class="card bg-transparent" style="width: 18rem">
+                <img
+                  src="/img/visited-countries/spain.png"
+                  class="card-img-top"
+                  alt="..." />
+                <div class="card-body text-center">
+                  <h5 class="card-title">
+                    <a href="#" class="btn btn-primary">Visit</a> Spain
+                  </h5>
+                  <p>No. 2 Most Visited Country</p>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-7">
+              <iframe
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d12541672.58445396!2d-12.714437913960312!3d39.87576591028028!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xc42e3783261bc8b%3A0xa6ec2c940768a3ec!2sSpanyol!5e0!3m2!1sid!2sid!4v1677858589095!5m2!1sid!2sid"
+                width="600"
+                height="450"
+                style="border: 0"
+                allowfullscreen=""
+                loading="lazy"
+                referrerpolicy="no-referrer-when-downgrade"></iframe>
+            </div>
+          </div>
+
+          <div class="country-card row martop">
+            <div class="col-5">
+              <div class="card bg-transparent" style="width: 18rem">
+                <img
+                  src="/img/visited-countries/united-states.svg"
+                  class="card-img-top"
+                  alt="..." />
+                <div class="card-body text-center">
+                  <h5 class="card-title">
+                    <a href="#" class="btn btn-primary">Visit</a> United States
+                  </h5>
+                  <p>No. 3 Most Visited Country</p>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-7">
+              <iframe
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d25895663.485556163!2d-95.665!3d37.599999999999994!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x54eab584e432360b%3A0x1c3bb99243deb742!2sAmerika%20Serikat!5e0!3m2!1sid!2sid!4v1677859822655!5m2!1sid!2sid"
+                width="600"
+                height="450"
+                style="border: 0"
+                allowfullscreen=""
+                loading="lazy"
+                referrerpolicy="no-referrer-when-downgrade"></iframe>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- todo Last Most Visited Countries -->
+
+    <!-- todo Top Cities -->
+    <section class="top-cities mar-top pad-top" id="top-cities">
+      <div class="container-fluid">
+        <h1 class="text-center">Top Cities in The World</h1>
+        <div class="london">
+          <h3 class="mt-3">LONDON</h3>
+          <div class="london-gallery">
+            <div class="image-1">
+              <img src="/img/top-cities/london/london-1.jpg" alt="" />
+            </div>
+            <div class="image-2">
+              <img src="/img/top-cities/london/london-2.jpg" alt="" />
+            </div>
+            <div class="image-3">
+              <img src="/img/top-cities/london/london-3.jpg" alt="" />
+            </div>
+            <div class="image-4">
+              <img src="/img/top-cities/london/london-4.jpg" alt="" />
+            </div>
+            <div class="image-5">
+              <img src="/img/top-cities/london/london-5.jpg" alt="" />
+            </div>
+            <div class="image-6">
+              <img src="/img/top-cities/london/london-6.jpg" alt="" />
+            </div>
+            <div class="image-7">
+              <img src="/img/top-cities/london/london-7.jpg" alt="" />
+            </div>
+            <div class="image-8">
+              <img src="/img/top-cities/london/london-8.jpg" alt="" />
+            </div>
+            <div class="image-9">
+              <img src="/img/top-cities/london/london-9.jpg" alt="" />
+            </div>
+            <div class="image-10">
+              <img src="/img/top-cities/london/london-10.jpg" alt="" />
+            </div>
+            <div class="image-11">
+              <img src="/img/top-cities/london/london-11.jpg" alt="" />
+            </div>
+            <div class="image-12">
+              <img src="/img/top-cities/london/london-12.jpg" alt="" />
+            </div>
+            <div class="image-13">
+              <img src="/img/top-cities/london/london-13.jpg" alt="" />
+            </div>
+            <div class="image-14">
+              <img src="/img/top-cities/london/london-14.jpg" alt="" />
+            </div>
+            <div class="image-15">
+              <img src="/img/top-cities/london/london-15.jpg" alt="" />
+            </div>
+            <div class="image-16">
+              <img src="/img/top-cities/london/london-16.jpg" alt="" />
+            </div>
+          </div>
+        </div>
+
+        <div class="paris mt-5 pt-5">
+          <h3 class="mt-3">PARIS</h3>
+          <div class="paris-gallery">
+            <div class="image-1">
+              <img src="/img/top-cities/paris/paris-1.jpg" alt="" />
+            </div>
+            <div class="image-2">
+              <img src="/img/top-cities/paris/paris-2.jpg" alt="" />
+            </div>
+            <div class="image-3">
+              <img src="/img/top-cities/paris/paris-3.jpg" alt="" />
+            </div>
+            <div class="image-4">
+              <img src="/img/top-cities/paris/paris-4.jpg" alt="" />
+            </div>
+            <div class="image-5">
+              <img src="/img/top-cities/paris/paris-5.jpg" alt="" />
+            </div>
+            <div class="image-6">
+              <img src="/img/top-cities/paris/paris-6.jpg" alt="" />
+            </div>
+            <div class="image-7">
+              <img src="/img/top-cities/paris/paris-7.jpg" alt="" />
+            </div>
+            <div class="image-8">
+              <img src="/img/top-cities/paris/paris-8.jpg" alt="" />
+            </div>
+            <div class="image-9">
+              <img src="/img/top-cities/paris/paris-9.jpg" alt="" />
+            </div>
+            <div class="image-10">
+              <img src="/img/top-cities/paris/paris-10.jpg" alt="" />
+            </div>
+            <div class="image-11">
+              <img src="/img/top-cities/paris/paris-11.jpg" alt="" />
+            </div>
+            <div class="image-12">
+              <img src="/img/top-cities/paris/paris-12.jpg" alt="" />
+            </div>
+            <div class="image-13">
+              <img src="/img/top-cities/paris/paris-13.jpg" alt="" />
+            </div>
+            <div class="image-14">
+              <img src="/img/top-cities/paris/paris-14.jpg" alt="" />
+            </div>
+            <div class="image-15">
+              <img src="/img/top-cities/paris/paris-15.jpg" alt="" />
+            </div>
+            <div class="image-16">
+              <img src="/img/top-cities/paris/paris-16.jpg" alt="" />
+            </div>
+          </div>
+        </div>
+
+        <div class="new-york mt-5 pt-5">
+          <h3 class="mt-3">NEW YORK</h3>
+          <div class="new-york-gallery">
+            <div class="image-1">
+              <img src="/img/top-cities/new-york/new-york-1.jpg" alt="" />
+            </div>
+            <div class="image-2">
+              <img src="/img/top-cities/new-york/new-york-2.jpg" alt="" />
+            </div>
+            <div class="image-3">
+              <img src="/img/top-cities/new-york/new-york-3.jpg" alt="" />
+            </div>
+            <div class="image-4">
+              <img src="/img/top-cities/new-york/new-york-4.jpg" alt="" />
+            </div>
+            <div class="image-5">
+              <img src="/img/top-cities/new-york/new-york-5.jpg" alt="" />
+            </div>
+            <div class="image-6">
+              <img src="/img/top-cities/new-york/new-york-6.jpg" alt="" />
+            </div>
+            <div class="image-7">
+              <img src="/img/top-cities/new-york/new-york-7.jpg" alt="" />
+            </div>
+            <div class="image-8">
+              <img src="/img/top-cities/new-york/new-york-8.jpg" alt="" />
+            </div>
+            <div class="image-9">
+              <img src="/img/top-cities/new-york/new-york-9.jpg" alt="" />
+            </div>
+            <div class="image-10">
+              <img src="/img/top-cities/new-york/new-york-10.jpg" alt="" />
+            </div>
+            <div class="image-11">
+              <img src="/img/top-cities/new-york/new-york-11.jpg" alt="" />
+            </div>
+            <div class="image-12">
+              <img src="/img/top-cities/new-york/new-york-12.jpg" alt="" />
+            </div>
+            <div class="image-13">
+              <img src="/img/top-cities/new-york/new-york-13.jpg" alt="" />
+            </div>
+            <div class="image-14">
+              <img src="/img/top-cities/new-york/new-york-14.jpg" alt="" />
+            </div>
+            <div class="image-15">
+              <img src="/img/top-cities/new-york/new-york-15.jpg" alt="" />
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- todo Top Last Cities -->
+
+    <!-- todo Review -->
+    <div class="review mar-top" id="review">
+      <div class="container-fluid">
+        <div class="container">
+          <div class="row review-core">
+            <h1 class="mb-5">Review</h1>
+            <div class="card">
+              <div class="card2">
+                <h1>Taylor Swift</h1>
+                <img src="/img/review/taylor-swift.jpg" alt="" />
+                <div class="icon mt-3">
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                </div>
+                <h6 class="mt-2">Awesome</h6>
+              </div>
+            </div>
+            <div class="card">
+              <div class="card2">
+                <h1>Sergio Ramos</h1>
+                <img src="/img/review/sergio-ramos.jpg" alt="" />
+                <div class="icon mt-3">
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                </div>
+                <h6 class="mt-2">Excellent</h6>
+              </div>
+            </div>
+            <div class="card">
+              <div class="card2">
+                <h1>Pevita Pearce</h1>
+                <img src="/img/review/Pevita-Pearce.jpg" alt="" />
+                <div class="icon mt-3">
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                </div>
+                <h6 class="mt-2">Awesome</h6>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- todo Last Review -->
+
+    <!-- todo Contact Us -->
+
+    <div class="contact-us mar-top" id="contact-us">
+      <div class="container-fluid">
+        <div class="container">
+          <h1>Contact Us</h1>
+          <div class="row">
+            <div class="col-6 left-contact-us">
+              <div class="row">
+                <div class="col-6">
+                  <h6 class="pt-4">Name</h6>
+                  <input
+                    class="form-control"
+                    type="text"
+                    placeholder=""
+                    aria-label="default input example" />
+                </div>
+                <div class="col-6">
+                  <h6 class="pt-4">Age</h6>
+                  <input
+                    class="form-control"
+                    type="text"
+                    placeholder=""
+                    aria-label="default input example" />
+                </div>
+              </div>
+              <h6 class="pt-4">Email</h6>
+              <input
+                type="email"
+                class="form-control"
+                id="exampleInputEmail1"
+                aria-describedby="emailHelp" />
+
+              <h6 class="pt-4">City</h6>
+              <input
+                class="form-control"
+                type="text"
+                placeholder=""
+                aria-label="default input example" />
+
+              <h6 class="pt-4">Destination</h6>
+              <select id="inputState" class="form-select">
+                <option selected>Choose...</option>
+                <option>London</option>
+                <option>Paris</option>
+                <option>New York</option>
+                <option>Tokyo</option>
+                <option>Dubai</option>
+                <option>Madrid</option>
+                <option>Los Angeles</option>
+                <option>Rio De Janeiro</option>
+                <option>Hamburg</option>
+                <option>Roma</option>
+                <option>Jakarta</option>
+                <option>Singapore</option>
+                <option>Melbourne</option>
+                <option>Seoul</option>
+              </select>
+            </div>
+            <div class="col-6 right-contact-us">
+              <div class="pack-container">
+                <div class="header">
+                  <p class="title">Starter</p>
+                  <div class="price-container">
+                    <span>$</span>1.5K
+                    <span>/mo</span>
+                  </div>
+                </div>
+                <div>
+                  <ul class="lists">
+                    <li class="list">
+                      <span>
+                        <svg
+                          aria-hidden="true"
+                          stroke="currentColor"
+                          stroke-width="2"
+                          viewBox="0 0 24 24"
+                          fill="none"
+                          xmlns="http://www.w3.org/2000/svg">
+                          <path
+                            d="M4.5 12.75l6 6 9-13.5"
+                            stroke-linejoin="round"
+                            stroke-linecap="round"></path>
+                        </svg>
+                      </span>
+                      <p>1 - 5 People</p>
+                    </li>
+                    <li class="list">
+                      <span>
+                        <svg
+                          aria-hidden="true"
+                          stroke="currentColor"
+                          stroke-width="2"
+                          viewBox="0 0 24 24"
+                          fill="none"
+                          xmlns="http://www.w3.org/2000/svg">
+                          <path
+                            d="M4.5 12.75l6 6 9-13.5"
+                            stroke-linejoin="round"
+                            stroke-linecap="round"></path>
+                        </svg>
+                      </span>
+                      <p>3+ Desinations</p>
+                    </li>
+                    <li class="list">
+                      <span>
+                        <svg
+                          aria-hidden="true"
+                          stroke="currentColor"
+                          stroke-width="2"
+                          viewBox="0 0 24 24"
+                          fill="none"
+                          xmlns="http://www.w3.org/2000/svg">
+                          <path
+                            d="M4.5 12.75l6 6 9-13.5"
+                            stroke-linejoin="round"
+                            stroke-linecap="round"></path>
+                        </svg>
+                      </span>
+                      <p>A Week free Transport</p>
+                    </li>
+                    <li class="list">
+                      <span>
+                        <svg
+                          aria-hidden="true"
+                          stroke="currentColor"
+                          stroke-width="2"
+                          viewBox="0 0 24 24"
+                          fill="none"
+                          xmlns="http://www.w3.org/2000/svg">
+                          <path
+                            d="M4.5 12.75l6 6 9-13.5"
+                            stroke-linejoin="round"
+                            stroke-linecap="round"></path>
+                        </svg>
+                      </span>
+                      <p>5 star hotel accommodation 
+                      </p>
+                    </li>
+                  </ul>
+                </div>
+                <div class="button-container">
+                  <button type="button">Book A Ticket</button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- todo Last Contact Us -->
+
+    <!-- todo Footer -->
+    <footer class="footer mar-top">
+      <div class="container-fluid">
+        <div class="container">
+          <div class="footer-core">
+            <p>
+              Created With <i class="fas fa-heart"></i> By
+              <span> Zachary R Luthfy </span>
+            </p>
+          </div>
+        </div>
+      </div>
+    </footer>
+    <!-- todo Last Footer -->
+
+    <!-- Font Awesome -->
+    <script
+      src="https://kit.fontawesome.com/8a9d142db2.js"
+      crossorigin="anonymous"></script>
+
+    <!-- Bootstrap JS -->
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN"
+      crossorigin="anonymous"></script>
+  </body>
+</html>
